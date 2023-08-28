@@ -30,8 +30,8 @@ homebrew提供了官方安装教程，后续待补
 ---
 ### 4.使用问题
 1.对于安装python存在的问题(已解决)
-> command not found: python
+> zsh:command not found: python > 
 原因：homebrew安装python并不会为其添加环境变量，需要为其手动添加
 解决：待补
 
-参考文章(ttps://blog.csdn.net/baidu_30506559/article/details/127386192)
+参考文章(https://blog.csdn.net/baidu_30506559/article/details/127386192)
