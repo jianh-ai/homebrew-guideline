@@ -18,12 +18,13 @@ homebrew提供了官方安装教程，后续待补
 4.查询homebrew已安装应用
 `brew list`
 
-5.查询brewlist版本
+5.查询homebrew版本
 `brew -v`
 
 ---
 ## 3.homebrew的存储路径
 `/opt/homebrew/Cellar`
+
 一般来说直接访达是无法直接查询的，得通过“聚焦搜索”才能搜寻到
 
 ---
