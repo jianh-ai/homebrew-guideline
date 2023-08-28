@@ -32,3 +32,4 @@ homebrew提供了官方安装教程，后续待补
 1.对于安装python存在的问题
 在python3.10安装在cellar目录后，终端中查找python并不能找到
 解决方法：标记中
+...
