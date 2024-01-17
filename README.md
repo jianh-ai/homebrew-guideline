@@ -20,7 +20,10 @@ intruduction to homebrew
 5. 输入`:wq`,注意是三个字符而不是两个
 6.  source ~/.zshrc
 
-
+卸载
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)"
+```
 ---
 ## 2.使用
 1.使用homebrew安装程序
