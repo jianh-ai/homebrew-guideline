@@ -3,13 +3,23 @@ intruduction to homebrew
 ---
 ## 1.安装
 
+国内源：
 ```
 /bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
 ```
-
+国外源：
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+启动台 -> 打开terminal
+1. vim ~/.zshrc
+2. 输入单字母i，表示进入输入模式insert
+3. export PATH=/xxx/xxx/.../bin:$PATH
+4. 按esc
+5. 输入`:wq`,注意是三个字符而不是两个
+6.  source ~/.zshrc
+
 
 ---
 ## 2.使用
