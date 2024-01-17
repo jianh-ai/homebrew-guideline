@@ -2,7 +2,14 @@
 intruduction to homebrew
 ---
 ## 1.安装
-homebrew提供了官方安装教程，后续待补
+
+```
+/bin/zsh -c "$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)"
+```
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
 ---
 ## 2.使用
