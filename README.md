@@ -54,8 +54,8 @@ homebrew web url：https://brew.sh
 原因：`/opt/homebrew/bin` is not in your PATH.
 解决：启动台 -> 打开terminal
 1. vim ~/.zshrc
-2. 输入单字母i，表示进入输入模式insert
-3. export PATH=/xxx/xxx/.../bin:$PATH
+2. 输入单字母`i`，进入输入模式insert
+3. export PATH=/opt/homebrew/bin:$PATH
 4. 按esc
 5. 输入`:wq`,注意是三个字符而不是两个
 6.  source ~/.zshrc
