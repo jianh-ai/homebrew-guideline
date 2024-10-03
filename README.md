@@ -49,6 +49,7 @@ homebrew web url：https://brew.sh
 原因：homebrew安装python并不会为其添加环境变量
 
 解决：手动添加（实际建议使用conda/minicomda来管理python环境）
+
 参考文章(https://blog.csdn.net/baidu_30506559/article/details/127386192)
 
 2.brew命令不能运行
