@@ -54,6 +54,7 @@ homebrew web url：https://brew.sh
 > zsh: command not found: brew
 
 原因：`/opt/homebrew/bin` is not in your PATH.
+
 解决：启动台 -> 打开terminal
 1. vim ~/.zshrc
 2. 输入单字母`i`，进入输入模式insert
