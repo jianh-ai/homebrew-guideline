@@ -44,13 +44,15 @@ homebrew web url：https://brew.sh
 ---
 ## 5.使用问题
 1.对于安装python存在的问题(已解决)
-> zsh:command not found: python >
+> zsh:command not found: python
+
 原因：homebrew安装python并不会为其添加环境变量
-解决：暂不清楚
+解决：手动添加（实际建议使用conda/minicomda来管理python环境）
 参考文章(https://blog.csdn.net/baidu_30506559/article/details/127386192)
 
 2.brew命令不能运行
-> zsh: command not found: brew >
+> zsh: command not found: brew
+
 原因：`/opt/homebrew/bin` is not in your PATH.
 解决：启动台 -> 打开terminal
 1. vim ~/.zshrc
